@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>University Website</title>
+        <link rel="stylesheet" href="./assets/styles/index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"
+                    ><img
+                        src="./assets/images/R (1).png"
+                        alt="Daffodil logo"
+                    />Daffodil International University</a
+                >
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">COURSE</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-ellipsis-v" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>World's Beautiful University</h1>
+                <p>
+                    Daffodil International University <br />
+                    Most Beautiful University of Bangladesh I ever seen.
+                </p>
+                <a href="#" class="btn">Visit Us To Know More</a>
+            </div>
+        </section>
+        <div class="course">
+            <h1>Courses We Offers</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt vel dolores tenetur et, voluptatem inventore ipsa.
+                Deserunt, eligendi! Quae asperiores laudantium dolore ipsum
+                placeat eos minima dignissimos temporibus quod sequi?
+            </p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Dolore tempora qui eveniet maiores vel totam
+                        accusantium iure alias nostrum, sint praesentium
+                        repellat quia amet? Nulla nemo debitis in amet
+                        veritatis!
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Dolore tempora qui eveniet maiores vel totam
+                        accusantium iure alias nostrum, sint praesentium
+                        repellat quia amet? Nulla nemo debitis in amet
+                        veritatis!
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Dolore tempora qui eveniet maiores vel totam
+                        accusantium iure alias nostrum, sint praesentium
+                        repellat quia amet? Nulla nemo debitis in amet
+                        veritatis!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
