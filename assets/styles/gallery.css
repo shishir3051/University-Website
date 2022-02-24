@@ -1,0 +1,62 @@
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+        url(../images/F7hMVL.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.sub-header h1 {
+    margin-top: 10px;
+}
+
+.gallery{
+     width:80%;
+    margin: auto;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+.heading{
+    text-align: center;
+    padding: 32px;
+}
+
+.gallery-row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column{
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 0 4px;
+
+}
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.buttons{
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+.buttons:hover{
+    background-color: #ddd;
+
+}
+.buttons.active{
+    background-color: #666;
+    color: white;
+
+}
+
