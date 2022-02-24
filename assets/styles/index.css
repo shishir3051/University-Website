@@ -372,6 +372,9 @@ nav .fas {
         text-align: center;
         padding: 10px;
     }
+    .footer p{
+        padding: 20px;
+    }
 }
 
 span a {
