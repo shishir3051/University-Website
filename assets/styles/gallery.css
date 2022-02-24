@@ -1,3 +1,4 @@
+
 .sub-header {
     height: 50vh;
     width: 100%;
@@ -60,3 +61,13 @@
 
 }
 
+@media (max-width: 768px) {
+    .gallery-row {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .last img{
+    width: 99% !important;
+}
+}
