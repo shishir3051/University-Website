@@ -21,11 +21,11 @@ function two() {
 }
 
 // Four images side by side
-function four() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "20%";  // IE10
-    elements[i].style.flex = "20%";
-  }
+function three() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.msFlex = "20%"; // IE10
+        elements[i].style.flex = "20%";
+    }
 }
 
 // Add active class to the current button (highlight it)

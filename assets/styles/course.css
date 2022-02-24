@@ -1,0 +1,28 @@
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/Courses.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.sub-header h1{
+    margin-top:10px;
+}
+.course p{
+    text-align: center;
+}
+.course-col ol  {
+   padding: 15px;
+}
+.course-col  li {
+   padding: 5px;
+   cursor: pointer;
+}
+.course-col h5 {
+    text-align: center;
+    font-weight: 500;
+    
+}

@@ -24,7 +24,7 @@
     padding: 32px;
 }
 
-.gallery-row{
+.row{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 768px) {
-    .gallery-row {
+    .row {
         display: flex;
         flex-direction: column;
         padding: 20px;

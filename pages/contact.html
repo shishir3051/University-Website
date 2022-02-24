@@ -19,7 +19,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="../assets/styles/index.css" />
-        <link rel="stylesheet" href="../assets/styles/about.css" />
+        <link rel="stylesheet" href="../assets/styles/contact.css" />
     </head>
     <body>
         <section class="sub-header">
@@ -35,40 +35,77 @@
                     <i class="fas fa-times-circle" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="../index.html">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="../pages/about.html">ABOUT</a></li>
                         <li><a href="../pages/gallery.html">GALLERY</a></li>
-                        <li><a href="../pages/course.html">COURSE & FACILITIES</a></li>
+                        <li>
+                            <a href="../pages/course.html"
+                                >COURSE & FACILITIES</a
+                            >
+                        </li>
                         <li><a href="../pages/blog.html">BLOG</a></li>
-                        <li><a href="../pages/contact.html">CONTACT</a></li>
+                        <li><a href="#">CONTACT</a></li>
                     </ul>
                 </div>
                 <i class="fas fa-ellipsis-v" onclick="showMenu()"></i>
             </nav>
-            <h1>About Us</h1>
+            <h1>CONTACT ME</h1>
         </section>
-        <div class="about-us">
+
+        <div class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.844961504526!2d90.37695861445589!3d23.752907494598492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9e4259bec3f%3A0xb943536b2d17d80f!2sShukrabad%20Market%20(Kacha%20Bazar)!5e0!3m2!1sen!2sbd!4v1645697142064!5m2!1sen!2sbd"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+            ></iframe>
+        </div>
+        <div class="contact-us">
             <div class="row">
-                <div class="about-column">
-                    <h1>We Are The World's Beautiful University.</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Dignissimos officiis corporis doloribus nulla vero
-                        suscipit. Vel, esse ipsum laboriosam perferendis, odio
-                        numquam provident voluptatibus, ut dignissimos beatae
-                        natus recusandae minima.
-                    </p>
-                    <a href="#" class="btn red-btn">EXPLORE NOW</a>
+                <div class="contact-column">
+                    <div>
+                       <span><i class="fas fa-home "></i></span>
+                       <span>
+                           <h5>Shukrabad High School Road, ABC Building</h5>
+                           <p>Shukrabad, Dhaka South, Bangladesh</p>
+                       </span>
+                    </div>
+                    <div>
+                      <span> <i class="fas fa-phone "></i></span>
+                       <span>
+                           <h5>+8801609277790</h5>
+                           <p>Friday Colse , 10AM to 6PM</p>
+                       </span>
+                    
                 </div>
-                <div class="about-column">
-                    <img src="../assets/images/FB_IMG_16008877011456910.jpg" alt="">
-                </div>
+                <div>
+                       <span><i class="fas fa-envelope "></i></span>
+                       <span>
+                           <h5>gaziur35-3051@diu.edu.bd</h5>
+                           <p>Email Me Your Query</p>
+                       </span>
+                    </div>
+            </div>
+            <div class="contact-column">
+                 <form action="mailto:hmgaziur4311@gmail.com">
+                            <input type="text" placeholder="Enter Name" required />
+                            <input type="email" placeholder="Enter Email" required />
+                            <input type="text" placeholder="Enter Subject" required />
+                            <textarea
+                                rows="8"
+                                placeholder="Message"
+                            ></textarea>
+                           <button type="submit" class="blog-button">Send Message</button>
+                           <button type="reset" class="blog-button">Reset</button>
+                        </form>
             </div>
         </div>
 
         <section class="footer">
             <h4>About Us</h4>
             <p>
-                National and International scholars, Business leaders,
+               National and International scholars, Business leaders,
                 Entrepreneurs, <br> Dignitaries visited us to share experiences,
                 explore opportunities, collaborate and give guidance to the
                 students
