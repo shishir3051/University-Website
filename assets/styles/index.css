@@ -108,7 +108,7 @@ nav .fas {
         right: -200px;
         text-align: left;
         z-index: 999;
-        transition: 1s;
+        transition: 0.5s;
     }
     nav .fas {
         display: block;
